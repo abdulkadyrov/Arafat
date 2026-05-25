@@ -1,0 +1,9 @@
+
+{
+"name":"День Арафа",
+"short_name":"Арафа",
+"display":"standalone",
+"start_url":"./",
+"background_color":"#ffffff",
+"theme_color":"#0b6b3a"
+}

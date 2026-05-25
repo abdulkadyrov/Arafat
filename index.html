@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>День Арафа</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+<h1>🌙 День Арафа</h1>
+<p>План поклонения от ночи до Магриба</p>
+</header>
+
+<main class="container">
+
+<section class="card intro">
+<h2>🕌 Намерение</h2>
+<p>
+Пусть этот день станет причиной прощения грехов,
+приближения к Аллаху и принятия дуа.
+</p>
+</section>
+
+<section class="card">
+<h2>🌌 Ночь перед Арафа</h2>
+
+<div class="task check">
+<label><input type="checkbox"> Лечь пораньше ради тахаджуда</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Намерение на пост</label>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Тахаджуд</h3>
+<p>Лучше: 2–8 ракаатов</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Истигфар</h3>
+<p>«Астагфируллах ва атубу иляйх»</p>
+<p>Цель: 100–1000</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Салават Пророку ﷺ</h3>
+<p>«Аллахумма салли ‘аля Мухаммадин ва ‘аля али Мухаммад»</p>
+<p>Цель: 100–1000</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+</section>
+
+<section class="card">
+<h2>🤲 Как делать дуа</h2>
+
+<div class="dua-step">
+<h3>1. Восхваление Аллаха</h3>
+<p>
+«Альхамдулиллях», «Субханаллах», «Я Рахман», «Я Рахим».
+</p>
+</div>
+
+<div class="dua-step">
+<h3>2. Салават Пророку ﷺ</h3>
+<p>
+«Аллахумма салли ‘аля Мухаммадин ва ‘аля али Мухаммад»
+</p>
+</div>
+
+<div class="dua-step">
+<h3>3. Истигфар</h3>
+<p>
+«Астагфируллах ва атубу иляйх»
+</p>
+</div>
+
+<div class="dua-step">
+<h3>4. Личные дуа</h3>
+<p>
+Проси своими словами: Рай, прощение, ризк, здоровье,
+иман, счастье родителей.
+</p>
+</div>
+
+<div class="dua-step">
+<h3>5. Дуа Юнуса عليه السلام</h3>
+<p>
+«Ля иляха илля Анта субханака инни кунту мина-з-залимин»
+</p>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Дуа Юнуса عليه السلام</h3>
+<p>Цель: 40–100</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+</section>
+
+<section class="card">
+<h2>🌅 После Фаджра</h2>
+
+<div class="task check">
+<label><input type="checkbox"> Не ложиться спать после Фаджра</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Утренние азкары</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Читать Коран</label>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Сура Ихляс</h3>
+<p>Цель: 10–100</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+</section>
+
+<section class="card">
+<h2>📿 Главные зикры дня Арафа</h2>
+
+<div class="task counter">
+<div>
+<h3>Главный зикр Арафа</h3>
+<p>
+«Ля иляха илля-Ллаху вахдаху ля шарика лях,
+ляхуль-мульку ва ляхуль-хамд,
+ва хуа ‘аля кулли шай’ин кадир»
+</p>
+<p>Цель: 100–1000</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Субханаллах</h3>
+<p>Цель: 100–1000</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Альхамдулиллях</h3>
+<p>Цель: 100–1000</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+<div class="task counter">
+<div>
+<h3>Аллаху Акбар</h3>
+<p>Цель: 100–1000</p>
+</div>
+<button onclick="increment(this)">0</button>
+</div>
+
+</section>
+
+<section class="card">
+<h2>💰 Садака и добрые дела</h2>
+
+<div class="task check">
+<label><input type="checkbox"> Купить хлеб и оставить нуждающимся</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Помочь родителям</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Накормить человека</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Перевести садака</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Избегать TikTok и пустого контента</label>
+</div>
+
+</section>
+
+<section class="card">
+<h2>🌇 Перед Магрибом</h2>
+
+<div class="task check">
+<label><input type="checkbox"> Отключить всё лишнее</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Долго делать дуа</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Просить Рай и прощение</label>
+</div>
+
+<div class="task check">
+<label><input type="checkbox"> Делать дуа за родителей и Умму</label>
+</div>
+
+</section>
+
+<section class="card">
+<h2>📊 Общий прогресс</h2>
+
+<div class="progress-container">
+<svg width="180" height="180">
+<circle cx="90" cy="90" r="75"></circle>
+<circle id="progressCircle" cx="90" cy="90" r="75"></circle>
+</svg>
+
+<div id="percent">0%</div>
+</div>
+
+</section>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
